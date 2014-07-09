@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Duducat View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="DuducatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xx5-Gb-00B">
+                                <rect key="frame" x="0.0" y="20" width="320" height="72"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wwG-D5-kEz">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xR1-g3-lj4">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07f-7e-gXb">
+                                                <rect key="frame" x="0.0" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a1-hl.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="482-1O-Yrv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzN-Ax-hSe">
+                                                <rect key="frame" x="65" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a2.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PWk-2X-cRn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzV-KN-dCB">
+                                                <rect key="frame" x="130" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a3.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LDy-6r-BrM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9G-4Y-cjS">
+                                                <rect key="frame" x="195" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a4.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tw9-9w-tjr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7g-pL-KTC">
+                                                <rect key="frame" x="260" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a5.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="n5R-Hw-tfx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Uj-yb-d08">
+                                                <rect key="frame" x="325" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a6.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0te-7m-QPp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sK-eK-UaN">
+                                                <rect key="frame" x="390" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a7.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zbk-Ax-Fza"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="do8-zY-X8E">
+                                                <rect key="frame" x="455" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a8.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="scb-C2-E7B"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10m-II-igF">
+                                                <rect key="frame" x="520" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a9.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0pV-5i-2eL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyf-iY-Kcn">
+                                                <rect key="frame" x="585" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a10.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fy7-Ha-CdE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jco-n2-Pao">
+                                                <rect key="frame" x="650" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="a11.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JLl-qv-cDx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFW-yH-ff3">
+                                                <rect key="frame" x="715" y="3" width="65" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="65" id="QUN-vR-reV"/>
+                                                    <constraint firstAttribute="height" constant="65" id="hwL-2H-hDm"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="a12.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sxR-7m-Liq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="BFW-yH-ff3" secondAttribute="trailing" id="AUQ-4y-h3v"/>
+                                            <constraint firstItem="BFW-yH-ff3" firstAttribute="top" secondItem="xR1-g3-lj4" secondAttribute="top" constant="3" id="Nmh-dk-p97"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="xR1-g3-lj4" secondAttribute="bottom" id="4pm-yT-oKN"/>
+                                    <constraint firstItem="xR1-g3-lj4" firstAttribute="top" secondItem="xx5-Gb-00B" secondAttribute="top" id="8sN-Xy-2SG"/>
+                                    <constraint firstAttribute="height" constant="72" id="Dfn-fK-w4a"/>
+                                    <constraint firstItem="xR1-g3-lj4" firstAttribute="leading" secondItem="xx5-Gb-00B" secondAttribute="leading" id="Gxt-KK-Doe"/>
+                                    <constraint firstAttribute="width" constant="320" id="I1X-VW-SqZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="xR1-g3-lj4" secondAttribute="trailing" id="pHz-wn-93y"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="GYL-mA-cvc">
+                                <rect key="frame" x="0.0" y="92" width="320" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Ds9-6p-qrZ"/>
+                                    <constraint firstAttribute="width" constant="320" id="pa3-Xg-uhJ"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gb-2C-tGG">
+                                <rect key="frame" x="0.0" y="332" width="320" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="g5K-5S-s02">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="236"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZiT-0C-dyf">
+                                        <rect key="frame" x="20" y="0.0" width="280" height="236"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ZiT-0C-dyf" firstAttribute="top" secondItem="3gb-2C-tGG" secondAttribute="top" id="8xT-Lj-4og"/>
+                                    <constraint firstAttribute="bottom" secondItem="g5K-5S-s02" secondAttribute="bottom" id="DAs-wC-shy"/>
+                                    <constraint firstItem="g5K-5S-s02" firstAttribute="leading" secondItem="3gb-2C-tGG" secondAttribute="leading" id="JXY-b6-cST"/>
+                                    <constraint firstItem="g5K-5S-s02" firstAttribute="top" secondItem="3gb-2C-tGG" secondAttribute="top" id="OTc-xt-UiO"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZiT-0C-dyf" secondAttribute="bottom" id="RDI-Ui-aL7"/>
+                                    <constraint firstItem="ZiT-0C-dyf" firstAttribute="leading" secondItem="3gb-2C-tGG" secondAttribute="leading" constant="20" id="XMN-as-U6v"/>
+                                    <constraint firstAttribute="trailing" secondItem="g5K-5S-s02" secondAttribute="trailing" id="hKg-YR-s8h"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZiT-0C-dyf" secondAttribute="trailing" constant="20" id="tx2-2G-MIh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GYL-mA-cvc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="1yI-rv-atx"/>
+                            <constraint firstItem="xx5-Gb-00B" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="JYY-5i-Ubt"/>
+                            <constraint firstItem="GYL-mA-cvc" firstAttribute="top" secondItem="xx5-Gb-00B" secondAttribute="bottom" id="PWe-vS-Y7h"/>
+                            <constraint firstAttribute="trailing" secondItem="3gb-2C-tGG" secondAttribute="trailing" id="Vuj-cg-jYL"/>
+                            <constraint firstItem="3gb-2C-tGG" firstAttribute="top" secondItem="GYL-mA-cvc" secondAttribute="bottom" id="YUx-Ai-FT9"/>
+                            <constraint firstItem="xx5-Gb-00B" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ZkT-iD-jzZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3gb-2C-tGG" secondAttribute="bottom" id="fiG-4e-hOg"/>
+                            <constraint firstItem="3gb-2C-tGG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="kw9-ez-Bgr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="astroImageView" destination="GYL-mA-cvc" id="4hX-0d-Xja"/>
+                        <outlet property="astroTextView" destination="ZiT-0C-dyf" id="Qcc-Ae-uNf"/>
+                        <outlet property="selectedAstro" destination="07f-7e-gXb" id="WnF-qu-b0z"/>
+                        <outletCollection property="astros" destination="07f-7e-gXb" id="9CL-d9-Jk4"/>
+                        <outletCollection property="astros" destination="fzN-Ax-hSe" id="Xoh-yx-uC1"/>
+                        <outletCollection property="astros" destination="DzV-KN-dCB" id="xda-Za-JMb"/>
+                        <outletCollection property="astros" destination="n9G-4Y-cjS" id="2zg-1o-aW0"/>
+                        <outletCollection property="astros" destination="k7g-pL-KTC" id="Q9S-lB-Ucc"/>
+                        <outletCollection property="astros" destination="3Uj-yb-d08" id="EBr-kS-79z"/>
+                        <outletCollection property="astros" destination="2sK-eK-UaN" id="FjR-FT-FCm"/>
+                        <outletCollection property="astros" destination="do8-zY-X8E" id="gGH-H2-CB6"/>
+                        <outletCollection property="astros" destination="10m-II-igF" id="hfP-M2-fuZ"/>
+                        <outletCollection property="astros" destination="kyf-iY-Kcn" id="9MD-QM-ais"/>
+                        <outletCollection property="astros" destination="Jco-n2-Pao" id="UEx-cE-wfo"/>
+                        <outletCollection property="astros" destination="BFW-yH-ff3" id="kSC-dt-dv3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.png" width="320" height="240"/>
+        <image name="2.png" width="320" height="72"/>
+        <image name="3.png" width="320" height="237"/>
+        <image name="a1-hl.png" width="65" height="65"/>
+        <image name="a10.png" width="65" height="65"/>
+        <image name="a11.png" width="65" height="65"/>
+        <image name="a12.png" width="65" height="65"/>
+        <image name="a2.png" width="65" height="65"/>
+        <image name="a3.png" width="65" height="65"/>
+        <image name="a4.png" width="65" height="65"/>
+        <image name="a5.png" width="65" height="65"/>
+        <image name="a6.png" width="65" height="65"/>
+        <image name="a7.png" width="65" height="65"/>
+        <image name="a8.png" width="65" height="65"/>
+        <image name="a9.png" width="65" height="65"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
